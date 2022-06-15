@@ -1,3 +1,144 @@
+  373  nano script.sh
+  374  clear
+  375  pwd
+  376  ls
+  377  cd ..
+  378  pwd
+  379  ls
+  380  cc ..
+  381  ls
+  382  cd ..
+  383  ls
+  384  cd exercise-data/
+  385  cd writing/
+  386  cat haiku.txt 
+  387  grep not haiku.txt 
+  388  grep The haiku.txt 
+  389  grep -w The haiku.txt 
+  390  grep -w "is not" haiku.txt 
+  391  grep -w "is not" -n  haiku.txt 
+  392  grep -wn "is not" haiku.txt 
+  393  clear
+  394  find pwd
+  395  wpd
+  396  pwd
+  397  cd ..
+  398  ls
+  399  find . type d
+  400  find . type f
+  401  find . type d
+  402  pwd
+  403  find . type f
+  404  find . -name unicorn.dat
+  405  ls creatures/
+  406  pwd
+  407  find /home/schnablelab/deniz/shell-lesson-data/exercise-data -name unicorn.dat
+  408  find . -name *.dat
+  409  .
+  410  pwd
+  411  clear
+  412  exit
+  413  cd $DESKTOP
+  414  cd $Desktop
+  415  git config --global user.name "distip"
+  416  git config --global user.email "deniz.istipliler@gmail.com"
+  417  git config --list
+  418  git config --global core.autocrlf input
+  419  git cinfig --global core.editor "nano -w"
+  420  git config --list
+  421  git config --global core.editor "nano -w"
+  422  git config --list
+  423  ls
+  424  cd Desktop
+  425  cd $Desktop
+  426  git config --global init.defaultBranch main
+  427  git config --list
+  428  git config -h
+  429  git config --help
+  430  git help
+  431  clear
+  432  pwd
+  433  ls
+  434  mkdir planets
+  435  cd planets
+  436  pwd
+  437  git init
+  438  ls
+  439  ls -a
+  440  git checkout -b main
+  441  git status
+  442  ls -a
+  443  mkdir moons
+  444  cd moons
+  445  git init
+  446  ls -a
+  447  cd ..
+  448  rm -rf moons/.git
+  449  git status
+  450  lear
+  451  clear
+  452  pwd
+  453  ls
+  454  rm -rf moons
+  455  ls
+  456  nano mars.txt
+  457  ls
+  458  cat mars.txt 
+  459  git status
+  460  git add mars.txt 
+  461  git status
+  462  git commit -m "Start notes on Mars as a base"
+  463  git status
+  464  git log
+  465  clear
+  466  git log
+  467  clear
+  468  cat mars.txt 
+  469  nano mars.txt 
+  470  cat mars.txt 
+  471  git status
+  472  git diff
+  473  git  commit -m "Add concerns about effect on Mars's moon on Wolfman"
+  474  git add mars.txt 
+  475  git  commit -m "Add concerns about effect on Mars's moon on Wolfman"
+  476  git log
+  477  clear
+  478  nano mars.txt 
+  479  cat mars.txt 
+  480  git diff
+  481  git add mars.txt 
+  482  git diff
+  483  git status
+  484  git diff --staged
+  485  git commit -m "Discuss concerns about Mars's climate for Mummy"
+  486  git status
+  487  git log
+  488  git log -1
+  489  git log --oneline
+  490  clear
+  491  git log --oneline --graph
+  492  pwd
+  493  clear
+  494  pwd
+  495  mkdir spaceships
+  496  git status
+  497  git add spaceships
+  498  git status
+  499  touch spaceships/apollo-11 spaceships/sputnik-1
+  500  git status
+  501  git add spaceships
+  502  git status
+  503  git commit -m "Add some initial thoughts on spaceships"
+  504  git log
+  505  nano mars.txt 
+  506  nano venus.txt
+  507  git add mars.txt venus.txt 
+  508  git commit -m "adding Venus.txt and a comment to Mars.txt"
+  509  ls
+  510  cd ..
+  511  ls
+  512  mkdir bio
+  513  cd bio
   514  ls
   515  git init
   516  nano me.txt
@@ -148,3 +289,12 @@
   661  tail -n 200 history > history.txt
   662  history
   663  history |tail -n 150 > history.txt 
+  664  cat history.txt
+  665  nano history.txt 
+  666  git status
+  667  git add history.txt 
+  668  git commmit -m "the codes used in git lesson"
+  669  git commit -m "the codes used in git lesson"
+  670  git push origin main
+  671  ls
+  672  history | tail -n 300 > history.txt 
