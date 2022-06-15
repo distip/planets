@@ -1,0 +1,150 @@
+  514  ls
+  515  git init
+  516  nano me.txt
+  517  ls
+  518  git add me.txt 
+  519  git commit -m "creating the text file"
+  520  nano me.txt 
+  521  git diff
+  522  pwd
+  523  cd ..
+  524  ls
+  525  cd planets/
+  526  nano mars.txt 
+  527  nano venus.txt 
+  528  git status
+  529  git add mars.txt venus.txt 
+  530  git status
+  531  commit -m "Write plans to start a base on Venus"
+  532  git commit -m "Write plans to start a base on Venus"
+  533  git log
+  534  clear
+  535  nano mars.txt 
+  536  git log
+  537  git diff
+  538  git diff HEAD~1 mars.txt 
+  539  git show HEAD~3 mars.txt 
+  540  git diff 82633191239ab2898929585cd863826b18c758a1
+  541  git status
+  542  cat mars.txt 
+  543  git restore mars.txt 
+  544  git status
+  545  cat mars.txt 
+  546  git checkout HEAD mars.txt 
+  547  git status
+  548  git log
+  549  git checkout 9d2f9565973894f58ec3fee49ee1ca7f5e250f76 mars.txt 
+  550  cat mars.txt 
+  551  git status
+  552  git status checkout mars.txt 
+  553  git status
+  554  git status checkout HEAD mars.txt 
+  555  git status
+  556  git checkout HEAD mars.txt 
+  557  git status
+  558  cat mars.txt 
+  559  git checkout 9d2f9565973894f58ec3fee49ee1ca7f5e250f76 mars.txt
+  560  git checkout 9d2f9565973894f58ec3fee49ee1ca7f5e250f76
+  561  cat mars.txt 
+  562  git switch -
+  563  git status
+  564  cat mars
+  565  cat mars.txt 
+  566  git log
+  567  clear
+  568  pwd
+  569  mkdir results
+  570  touch a.dat b.dat c.dat results/a.out results/b.out
+  571  git status
+  572  nona .gitignore
+  573  nano .gitignore
+  574  git status
+  575  git add .gitignore
+  576  git commit -m "Ignore data files and the results folder"
+  577  git status
+  578  git status --ignored
+  579  cat .gitignore 
+  580  pwd
+  581  ls
+  582  cd results/
+  583  ls
+  584  rm a.out 
+  585  rm b.out 
+  586  mkdir data
+  587  mkdir images
+  588  mkdir plots
+  589  mkdir analysis
+  590  ls
+  591  cd ..
+  592  ls
+  593  git remote add origin git@github.com:distip/planets.git
+  594  git remote -v
+  595  ls ~/.ssh
+  596  ssh-keygen -C "deniz@swan"
+  597  ls ~/.ssh
+  598  cat ~/.ssh/id_rsa.pub
+  599  ssh -T git@github..com
+  600  ssh -T git@github.com
+  601  git push origin main
+  602  ls
+  603  git status
+  604  nano mars.txt
+  605  git status
+  606  git add mars.txt 
+  607  git commit -m "Hello world"
+  608  git push origin mian
+  609  git push origin main
+  610  b15860765c21b0be74af363cded76a7524acdb42
+  611  git HEAD b15860765c21b0be74af363cded76a7524acdb42 mars.txt 
+  612  git checkout HEAD b15860765c21b0be74af363cded76a7524acdb42 mars.txt 
+  613  git log
+  614  git checkout b15860765c21b0be74af363cded76a7524acdb42 mars.txt 
+  615  git status
+  616  cat mars.txt 
+  617  git add
+  618  git add mars.txt 
+  619  git commit -m "Hello world commitment has benn deleted"
+  620  git push origin main
+  621  git pull mars.txt 
+  622  exit
+  623  ls
+  624  planets
+  625  cd planets
+  626  ls
+  627  ls -a
+  628  git push origin main
+  629  nano mars.txt 
+  630  git status
+  631  git add
+  632  git add mars.txt 
+  633  git log
+  634  git commit -m "sikerler"
+  635  git push origin main
+  636  nano mars.txt 
+  637  git pull origin main
+  638  nano mars.txt 
+  639  git log
+  640  git diff mars.txt 
+  641  git diff HEAD mars.txt 
+  642  git diff HEAD~1 mars.txt 
+  643  git diff HEAD~2 mars.txt 
+  644  git checkout mars.txt
+  645  nano mars.txt 
+  646  git restore mars.txt 
+  647  nano mars.txt 
+  648  git log
+  649  git checkout 65b6f7 mars.txt 
+  650  nano mars.txt 
+  651  git sate
+  652  git status
+  653  git add mars.txt 
+  654  git commit
+  655  git commit -m "the last unnnecessary codes were deleted"
+  656  git push origin main
+  657  history
+  658  ls
+  659  tail -n 200 history > history.txt
+  660  touch history.txt
+  661  tail -n 200 history > history.txt
+  662  history
+  663  history |tail -n 150 > history.txt 
